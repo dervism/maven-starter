@@ -1,6 +1,6 @@
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class KalkulatorTest {
 
@@ -17,6 +17,7 @@ class KalkulatorTest {
         Kalkulator kalkulator = new Kalkulator();
 
         double sum = kalkulator.dele(10, 5);
-        assertEquals(sum, 2, "Delte ikke tallene riktig");
+        assertEquals(2, sum, "Delte ikke tallene riktig");
     }
+
 }
